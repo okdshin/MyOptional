@@ -1,8 +1,12 @@
+// Copyright okdshin 2014.
+// Distributed under the Boost Software License, Version 1.0.
+// (See copy at http://www.boost.org/LICENSE_1_0.txt)
 #ifndef MY_OPTIONAL_HPP
 #define MY_OPTIONAL_HPP
-//20141207
+
 #include <cstddef> // for std::size_t
 #include <cassert>
+
 //
 // static_assert
 //
