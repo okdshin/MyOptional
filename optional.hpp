@@ -108,7 +108,7 @@ namespace my {
 				new(my::address_of(data_)) value_type(*other) : 
 				0
 			) {}
-		optional(value_type const& value) :
+		explicit optional(value_type const& value) :
 			value_ptr_(new(my::address_of(data_)) value_type(value)) {}
 
 		~optional() {
